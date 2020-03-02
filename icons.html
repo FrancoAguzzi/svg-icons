@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Icons</title>
+    <style>
+        .icon {
+            width: 3em;
+            height: 3em;
+            background: lightgrey;
+            border-radius: 50%;
+            padding: .75rem;
+        }
+        circle, line, path, polyline {
+            fill: transparent;
+            stroke: black;
+            stroke-width: 2px;
+            stroke-linecap: round;
+            vector-effect: non-scaling-stroke;
+        }
+    </style>
+</head>
+<body>
+    <svg viewBox="0 0 100 100" class="icon">
+        <circle r="25" cx="40" cy="40"></circle>
+        <line x1="60" y1="60" x2="80" y2="80"></line>
+    </svg>
+    <svg viewBox="0 0 100 100" class="icon">
+        <line x1="25" y1="25" x2="75" y2="75"></line>
+        <line x1="75" y1="25" x2="25" y2="75"></line>
+    </svg>
+    <svg viewBox="0 0 100 100" class="icon">
+        <path d="M60 20 L30 50 L60 80"></path>
+    </svg>
+    <svg viewBox="0 0 100 100" class="icon">
+        <path d="M40 20 L70 50 L40 80"></path>
+    </svg>
+    <svg viewBox="0 0 100 100" class="icon">
+        <path d="M20 40 L50 70 L80 40"></path>
+    </svg>
+    <svg viewBox="0 0 100 100" class="icon">
+        <line x1="20" y1="30" x2="80" y2="30"></line>
+        <line x1="20" y1="50" x2="80" y2="50"></line>
+        <line x1="20" y1="70" x2="80" y2="70"></line>
+    </svg>
+    <svg viewBox="0 0 100 100" class="icon">
+        <path d="M20 50 L90 50 L60 20 M60 80 L90 50">
+    </svg>
+    <svg viewBox="0 0 100 100" class="icon">
+        <rect x="30" y="25" width="15" height="55"></rect>
+        <rect x="55" y="25" width="15" height="55"></rect>
+    </svg>
+</body>
+</html>
